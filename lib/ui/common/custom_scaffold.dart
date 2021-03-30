@@ -39,26 +39,27 @@ class CustomScaffold extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        key: scaffoldKey,
-        appBar: appBar,
-        body: Stack(alignment: Alignment.topCenter, children: <Widget>[
-          body,
-          StoreConnector<AppState, Widget>(
-              distinct: true,
-              converter: (store) => null,
-              builder: (_, toast) => toast ?? Empty()),
-        ]),
-        floatingActionButton: floatingActionButton,
-        floatingActionButtonLocation: floatingActionButtonLocation,
-        floatingActionButtonAnimator: floatingActionButtonAnimator,
-        persistentFooterButtons: persistentFooterButtons,
-        drawer: drawer,
-        endDrawer: endDrawer,
-        backgroundColor: backgroundColor,
-        bottomNavigationBar: bottomNavigationBar,
-        bottomSheet: bottomSheet,
-        resizeToAvoidBottomPadding: resizeToAvoidBottomPadding,
-        primary: primary);
+    return MaterialApp(
+        home: Scaffold(
+            key: scaffoldKey,
+            appBar: appBar,
+            body: Stack(alignment: Alignment.topCenter, children: <Widget>[
+              body,
+              StoreConnector<AppState, Widget>(
+                  distinct: true,
+                  converter: (store) => null,
+                  builder: (_, toast) => toast ?? Empty()),
+            ]),
+            floatingActionButton: floatingActionButton,
+            floatingActionButtonLocation: floatingActionButtonLocation,
+            floatingActionButtonAnimator: floatingActionButtonAnimator,
+            persistentFooterButtons: persistentFooterButtons,
+            drawer: drawer,
+            endDrawer: endDrawer,
+            backgroundColor: backgroundColor,
+            bottomNavigationBar: bottomNavigationBar,
+            bottomSheet: bottomSheet,
+            resizeToAvoidBottomPadding: resizeToAvoidBottomPadding,
+            primary: primary));
   }
 }

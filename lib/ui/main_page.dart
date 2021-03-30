@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:slabs_quiz/app/app_colors.dart';
@@ -9,6 +8,11 @@ import 'package:slabs_quiz/ui/service/service_page.dart';
 import 'package:slabs_quiz/ui/vehicle/vehicles_page.dart';
 
 import 'common/custom_scaffold.dart';
+
+//flutter build apk --target-platform android-arm,android-arm64
+//flutter build apk --target-platform android-arm,android-arm64 --split-per-abi
+//flutter build appbundle --target-platform android-arm,android-arm64
+//flutter build ios --no-codesign --release
 
 class MainPage extends StatefulWidget {
   const MainPage({this.index});
