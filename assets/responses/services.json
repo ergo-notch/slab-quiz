@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "service_name": "Reparación bujias",
+    "client_id": 0,
+    "vehicle_id": 8,
+    "datetime": ""
+  },
+  {
+    "id": 1,
+    "service_name": "Reparación bujias",
+    "client_id": 1,
+    "vehicle_id": 74,
+    "datetime": ""
+  },
+  {
+    "id": 2,
+    "service_name": "Atención a clientes",
+    "client_id": 2,
+    "vehicle_id": 109,
+    "datetime": ""
+  }
+]
