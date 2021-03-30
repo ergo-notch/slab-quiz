@@ -17,7 +17,7 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Compilation Guide
 
-- Open the project with Android Studio
+- [Open the project with Android Studio](https://flutter.dev/docs/get-started/test-drive)
 
 Try to clone the repository or download the code for open inside AndroidStudio
 Once you have the project on your files. Pick the option 'Open an existing project'
