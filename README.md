@@ -27,9 +27,15 @@ Once you have the project on your files. Pick the option 'Open an existing proje
 
 With the project available on IDE. Follow this steps for the compilation an run on device.
 
+# Clean the project with Flutter clean
+
 ![Clean the project with Flutter clean](flutter_clean.png)
 
+# Detect the available devices with flutter doctor
+
 ![Detect the available devices with flutter doctor](flutter_doctor.png)
+
+# Run the project on available and connected devices
 
 ![Run the project on available and connected devices](flutter_run.png)
 
