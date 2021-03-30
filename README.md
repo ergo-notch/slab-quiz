@@ -14,3 +14,24 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## Compilation Guide
+
+- Open the project with Android Studio
+
+Try to clone the repository or download the code for open inside AndroidStudio
+Once you have the project on your files. Pick the option 'Open an existing project'
+
+![AndroidStudio Main page](main_android_studio.png)
+
+
+With the project available on IDE. Follow this steps for the compilation an run on device.
+
+![Clean the project with Flutter clean](flutter_clean.png)
+
+![Detect the available devices with flutter doctor](flutter_doctor.png)
+
+![Run the project on available and connected devices](flutter_run.png)
+
+
+
